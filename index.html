@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mundo de las Mascotas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>El Mundo de las Mascotas</h1>
+        <nav>
+            <ul>
+                <li><a href="#perros">Perros</a></li>
+                <li><a href="#gatos">Gatos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="perros">
+            <h2>Perros</h2>
+            <div class="mascota-card">
+               
+                <h3>Cuidados Básicos</h3>
+                <p>Los perros necesitan ejercicio diario, alimentación balanceada y mucho amor.</p>
+                <button class="info-btn" onclick="mostrarInfo('perros')">Más información</button>
+            </div>
+        </section>
+
+        <section id="gatos">
+            <h2>Gatos</h2>
+            <div class="mascota-card">
+              
+                <h3>Cuidados Básicos</h3>
+                <p>Los gatos son independientes pero necesitan atención y cariño regular.</p>
+                <button class="info-btn" onclick="mostrarInfo('gatos')">Más información</button>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 El Mundo de las Mascotas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
